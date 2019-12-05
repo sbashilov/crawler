@@ -1,7 +1,8 @@
-#Crawler
+Crawler
+
 Was built for education purpose
 
-###Usage
+Usage
 
 `c, err := crawler.New("https://gobyexample.com")`
 
@@ -10,6 +11,6 @@ Was built for education purpose
 `p.Print(out, *depth)`
 
 
-###For tests you can run
+For tests you can run
 
 `go run cmd/main.go -url=https://gobyexample.com -depth=4`
